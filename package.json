@@ -2,9 +2,10 @@
   "name": "googlesearchTesting",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "script.js",
   "scripts": {
-    "test": "jest --watch *.js"
+    "test": "jest",
+    "jest": "jest --watch *.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/Haroonabdulrazaq/GooglesearchTesting/issues"
   },
-  "homepage": "https://github.com/Haroonabdulrazaq/GooglesearchTesting#readme"
+  "homepage": "https://github.com/Haroonabdulrazaq/GooglesearchTesting#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
 }
